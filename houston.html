@@ -7,6 +7,7 @@
     <meta name="keywords" content="Хьюстон, Houston" />
     <meta name="author" content="Vladimir Korzin" />
     <title>Хьюстон</title>
+    <link rel="stylesheet" href="style.css"
   </head>
   <body>
     <h1>Хьюстон</h1>
@@ -186,10 +187,14 @@
       устанавливался временный снежный покров.
     </p>
     <table>
-      <caption>
-        <b>Дни с ясной и дождливой погодой в месяц (суммарно по часам)</b>
-      </caption>
       <thead>
+        <caption>
+          <th colspan="14">
+            Дни с ясной и дождливой погодой в месяц (суммарно по часам)
+          </th>
+        </caption>
+      </thead>
+      <tbody>
         <tr>
           <th>Месяц</th>
           <th>Янв</th>
@@ -238,7 +243,7 @@
           <td>12</td>
           <td>136</td>
         </tr>
-      </thead>
+      </tbody>
     </table>
     <h3 id="2.2">Рельеф, внутренние воды</h3>
     <p>
@@ -292,22 +297,22 @@
     </p>
     <h2 id="3">Экономика</h2>
     <h3 id="3.1">Общее состояние</h3>
-    <table width="48%">
-      <caption>
-        <div align="left">
-          <b>
-            Крупнейшие компании, базирующиеся в Хьюстоне по версии Fortune 500
-            на 2016 год.</b
-          >
-        </div>
-      </caption>
+    <table>
       <thead>
+        <caption>
+          <th colspan="3">
+            Крупнейшие компании, базирующиеся в Хьюстоне по версии Fortune 500
+            на 2016 год.
+          </th>
+        </caption>
+      </thead>
+      <tbody>
         <tr>
           <th align="left">Техас</th>
           <th align="left">Компания</th>
           <th align="left">США</th>
         </tr>
-      </thead>
+      </tbody>
       <tbody>
         <tr>
           <td>3</td>
@@ -532,17 +537,19 @@
     </p>
     <h2 id="4">Население</h2>
     <h3 id="4.1">Динамика и структура населения</h3>
-    <table>
-      <caption>
-        <b>Перепись населения</b>
-      </caption>
+    <table class="table-right">
       <thead>
+        <caption>
+          <th colspan="3">Перепись населения</th>
+        </caption>
+      </thead>
+      <tbody>
         <tr>
           <th>Год переписи</th>
           <th>Нас.</th>
           <th>%±</th>
         </tr>
-      </thead>
+      </tbody>
       <tbody>
         <tr>
           <th><div align="left">1850</div></th>
@@ -635,10 +642,10 @@
           <td>10.4%</td>
         </tr>
       </tbody>
-      <tfoot>
-        <td colspan="3">1850-2017 Переписи населения в 1790—2010 годах</td>
-      </tfoot>
     </table>
+    <p class="p-right">
+      1850-2017 Переписи населения в 1790—2010 годах
+    </p>
     <figure>
       <img src="img/Race_and_ethnicity_2010_Houston.png" align="bottom" />
       <figcaption>Этническая карта Хьюстона</figcaption>
